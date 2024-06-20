@@ -35,7 +35,7 @@ You'll need to ensure your webcam is enabled and you have given the browser perm
 
 Note that all you have to do is add the attribute `data-video` to the slide. If you have multiple video inputs (front and rear camera for example) you can click on the video to cycle trough them.
 
-The default video for the `data-video` attribute are:
+The classes for the `data-video` attribute are:
 
 - big = video width 90% of browser window
 - small = video width 15% of browser window
@@ -72,3 +72,6 @@ video.live-video.your-class {
 
 Here is the source code for a minimal example: [example.qmd](example.qmd).
 
+## Acknowledgements
+
+This project uses code from [ThomasWeinert/reveal-embed-video](https://github.com/ThomasWeinert/reveal-embed-video/), which is licensed under the MIT License. 
