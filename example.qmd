@@ -1,0 +1,29 @@
+---
+title: "Webcam Example"
+format:
+  revealjs:
+    webcam: 
+      toggleKey: "c"
+      enabled: false
+      persistent: false
+revealjs-plugins:
+  - webcam
+---
+
+# Intro {data-video="top-right"}
+
+- This Quarto extension adds a live video feed from your webcam in your slides. Ensure your webcam is enabled in the browser.
+- Press [C] to toggle camera!
+- Click the video image to switch input.
+
+# Different position {data-video="top-left small"}
+
+# Big {data-video="top-right big"}
+
+# Small {data-video="top-left small"}
+
+# Disabled {data-video="false"}
+
+# Enabled again {data-video="true top-right"}
+
+# Learn more at [parmsam/quarto-webcam](https://github.com/parmsam/quarto-webcam)
