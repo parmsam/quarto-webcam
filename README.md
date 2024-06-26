@@ -5,7 +5,7 @@ Adds a live webcam video feed in your RevealJS slides. Ports [ThomasWeinert/reve
 ## Installing
 
 ```bash
-quarto add parmsam/webcam
+quarto add parmsam/quarto-webcam
 ```
 
 This will install the extension under the `_extensions` subdirectory.
